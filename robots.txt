@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /about/
+Allow: /tags/
+Allow: /categories/
+Allow: /cplusplus/
+Allow: /python/
+Allow: /qt/
+Allow: /vue3/
+
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /lib/
+
+Sitemap: https://onlyna.github.io/sitemap.xml
+Sitemap: https://onlyna.github.io/baidusitemap.xml
