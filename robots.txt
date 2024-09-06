@@ -5,7 +5,7 @@ Allow: /about/
 Allow: /tags/
 Allow: /categories/
 Allow: /cplusplus/
-Allow: /python/
+Allow: /everyday/
 Allow: /qt/
 Allow: /vue3/
 
