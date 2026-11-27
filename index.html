@@ -694,15 +694,15 @@
 
         <div class="statistics flex justify-around my-2.5">
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">15</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">32</div>
         <div class="label text-third-text-color text-sm">标签</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">2</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
         <div class="label text-third-text-color text-sm">分类</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">41</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">47</div>
         <div class="label text-third-text-color text-sm">文章</div>
     </a>
 </div>
@@ -733,15 +733,15 @@
 </div>
                 <div class="statistics flex justify-around my-2.5">
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">15</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">32</div>
         <div class="label text-third-text-color text-sm">标签</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">2</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">5</div>
         <div class="label text-third-text-color text-sm">分类</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">41</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">47</div>
         <div class="label text-third-text-color text-sm">文章</div>
     </a>
 </div>
@@ -807,6 +807,583 @@
 			<div class="main-content">
 				<div class="home-content-container">
     <ul class="home-article-list">
+        
+            <li class="home-article-item">
+
+                
+
+                
+                    
+                
+
+                
+                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
+                        <a href="/klipper/moonraker-file-metadata-queue/">
+                            <img src="/images/klipper/moonraker-file-metadata-queue.png" alt="Moonraker 文件管理、G-code 元数据解析与打印队列机制" class="w-full h-full object-cover dark:brightness-75 transition-all" />
+                        </a>
+                    </div>
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
+                    <h3 class="home-article-title">
+                        <a href="/klipper/moonraker-file-metadata-queue/">
+                            Moonraker 文件管理、G-code 元数据解析与打印队列机制
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            
+                            1. file_manager 根目录模型与文件系统监听在 Klipper 生态中，切片文件上传、配置文件在线编辑、日志下载等操作并非直接读写宿主机任意路径，而是由 Moonraker 的 file_manager 组件统一以虚拟根目录（Root）的形式对外提供沙箱化访问。
+1.1 核心根目录与权限隔离
+
+
+Root 名称
+默认物理路径
+访问权限
+用途说明
+
+
+
+gcodes
+~/print...
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Sun Nov 22 2026 21:15:00 GMT+0800">
+                
+                    2026-11-22
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/G-code/">G-code</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/Moonraker/">Moonraker</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/klipper/moonraker-file-metadata-queue/">阅读全文<span class="seo-reader-text">Moonraker 文件管理、G-code 元数据解析与打印队列机制</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+                    
+                
+
+                
+                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
+                        <a href="/klipper/qt-moonraker-websocket/">
+                            <img src="/images/klipper/qt-moonraker-websocket.png" alt="基于 Qt + Moonraker WebSocket 开发 Klipper 轻量控制端" class="w-full h-full object-cover dark:brightness-75 transition-all" />
+                        </a>
+                    </div>
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
+                    <h3 class="home-article-title">
+                        <a href="/klipper/qt-moonraker-websocket/">
+                            基于 Qt + Moonraker WebSocket 开发 Klipper 轻量控制端
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            
+                            1. 通信接口选型：REST vs WebSocket在开发基于 Qt（桌面端或嵌入式 Linux 触控屏端）的 Klipper 控制界面时，Moonraker 同时提供了 HTTP REST 与 WebSocket 两套接口。合理划分两者的使用边界可以显著简化客户端状态管理。
+
+
+
+接口类型
+适用场景
+典型端点 &#x2F; 方法
+
+
+
+HTTP REST
+大文件传输、静态资源拉取、一次性...
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Sun Oct 25 2026 22:10:00 GMT+0800">
+                
+                    2026-10-25
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                    
+                
+                    
+                        
+                            <li>></li>
+                        
+                        <li>
+                            <a href="/categories/Klipper/Qt/">Qt</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/Qt/">Qt</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/C/">C++</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/klipper/qt-moonraker-websocket/">阅读全文<span class="seo-reader-text">基于 Qt + Moonraker WebSocket 开发 Klipper 轻量控制端</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+                    
+                
+
+                
+                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
+                        <a href="/klipper/moonraker-custom-component/">
+                            <img src="/images/klipper/moonraker-custom-component.png" alt="编写 Moonraker 自定义 Component：从生命周期到 JSON-RPC 端点扩展" class="w-full h-full object-cover dark:brightness-75 transition-all" />
+                        </a>
+                    </div>
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
+                    <h3 class="home-article-title">
+                        <a href="/klipper/moonraker-custom-component/">
+                            编写 Moonraker 自定义 Component：从生命周期到 JSON-RPC 端点扩展
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            
+                            1. 组件发现机制与生命周期Moonraker 采用高度模块化的 Component 架构。除内置核心组件外，开发者可以编写自定义 Python 组件并接入 Moonraker 的事件总线、HTTP REST 路由及 WebSocket JSON-RPC 体系。
+1.1 模块映射与加载入口当 moonraker.conf 中出现一个配置段（例如 [custom_stats]）时，Moonra...
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Sat Jul 18 2026 20:40:00 GMT+0800">
+                
+                    2026-07-18
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                    
+                
+                    
+                        
+                            <li>></li>
+                        
+                        <li>
+                            <a href="/categories/Klipper/Python/">Python</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/Moonraker/">Moonraker</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/JSON-RPC/">JSON-RPC</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/klipper/moonraker-custom-component/">阅读全文<span class="seo-reader-text">编写 Moonraker 自定义 Component：从生命周期到 JSON-RPC 端点扩展</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+                    
+                
+
+                
+                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
+                        <a href="/klipper/timer-too-close-debug/">
+                            <img src="/images/klipper/timer-too-close-debug.png" alt="从 Timer too close 说起：Klipper 上下位机调度与排错指南" class="w-full h-full object-cover dark:brightness-75 transition-all" />
+                        </a>
+                    </div>
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
+                    <h3 class="home-article-title">
+                        <a href="/klipper/timer-too-close-debug/">
+                            从 Timer too close 说起：Klipper 上下位机调度与排错指南
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            
+                            1. 报错本质：预调度窗口与时钟同步在 Klipper 使用过程中，MCU &#39;mcu&#39; shutdown: Timer too close 是最常见也最容易让人困惑的底层停机报错之一。要理解该报错，需要先明确 Klipper 的时间调度模型。
+1.1 预调度（Lookahead Scheduling）机制与 Marlin 等由下位机直接解析 G-code 的固件不同，Klip...
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Sun Apr 19 2026 16:45:00 GMT+0800">
+                
+                    2026-04-19
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/Linux/">Linux</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/MCU/">MCU</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/klipper/timer-too-close-debug/">阅读全文<span class="seo-reader-text">从 Timer too close 说起：Klipper 上下位机调度与排错指南</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+                    
+                
+
+                
+                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
+                        <a href="/klipper/klipper-jinja2-macro-engineering/">
+                            <img src="/images/klipper/klipper-jinja2-macro-engineering.png" alt="Klipper 宏系统（Jinja2）执行模型与 printer.cfg 工程化实践" class="w-full h-full object-cover dark:brightness-75 transition-all" />
+                        </a>
+                    </div>
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
+                    <h3 class="home-article-title">
+                        <a href="/klipper/klipper-jinja2-macro-engineering/">
+                            Klipper 宏系统（Jinja2）执行模型与 printer.cfg 工程化实践
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            
+                            1. Jinja2 模板的求值时机与执行模型在 Klipper 中，[gcode_macro] 并非像常规编程语言那样逐行解释执行，而是分为两个严格解耦的阶段：
+
+模板渲染阶段：当宏被调用时，Klipper 首先将整个 gcode: 字段作为 Jinja2 模板一次性渲染为纯文本 G-code 序列。此时模板中引用的所有 printer.* 状态对象，均为宏开始执行那一刻的快照。
+指令执行阶...
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Sat Feb 21 2026 15:20:00 GMT+0800">
+                
+                    2026-02-21
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/Jinja2/">Jinja2</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/G-code/">G-code</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/klipper/klipper-jinja2-macro-engineering/">阅读全文<span class="seo-reader-text">Klipper 宏系统（Jinja2）执行模型与 printer.cfg 工程化实践</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+                    
+                
+
+                
+                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
+                        <a href="/klipper/moonraker-klippy-ipc/">
+                            <img src="/images/klipper/moonraker-klippy-ipc.png" alt="Moonraker 与 Klippy 的进程间通信机制解析" class="w-full h-full object-cover dark:brightness-75 transition-all" />
+                        </a>
+                    </div>
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
+                    <h3 class="home-article-title">
+                        <a href="/klipper/moonraker-klippy-ipc/">
+                            Moonraker 与 Klippy 的进程间通信机制解析
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            
+                            1. 分层架构与进程边界在典型的 Klipper 生态部署中，上位机（Linux SBC）通常同时运行三个核心角色：前端界面（Mainsail &#x2F; Fluidd &#x2F; KlipperScreen）、API 网关服务（Moonraker）以及打印核心进程（Klippy）。
+各层职责划分如下：
+
+
+
+层级
+进程 &#x2F; 组件
+核心职责
+对外通信方式
+
+
+
+表现层
+Main...
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Sun Dec 14 2025 21:30:00 GMT+0800">
+                
+                    2025-12-14
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/Klipper/">Klipper</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/Moonraker/">Moonraker</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/JSON-RPC/">JSON-RPC</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/klipper/moonraker-klippy-ipc/">阅读全文<span class="seo-reader-text">Moonraker 与 Klippy 的进程间通信机制解析</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
         
             <li class="home-article-item">
 
@@ -1156,499 +1733,6 @@ C++11 为我们带来了许多极大提升代码可读性与开发效率的新�
                 </div>
             </li>
         
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
-                        <a href="/cplusplus/shared_mutex/">
-                            <img src="/images/cpp/shared-mutex.webp" alt="C++ 17 std::shared_mutex" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
-                    <h3 class="home-article-title">
-                        <a href="/cplusplus/shared_mutex/">
-                            C++ 17 std::shared_mutex
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            C++ 17 std::shared_mutex
-std::shared_mutex 可以把它理解成标准库提供的“读写锁”。它允许多个线程同时持有共享锁进行只读访问，但写入时必须独占。
-
-1. 为什么需要 shared_mutex？普通 std::mutex 的特点是：
-
-同一时刻只能有一个线程持锁
-不区分读和写
-
-如果某个共享资源大部分时候只是读取，只有少数时候写入，那么普通互斥锁就会显得...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Mar 03 2025 15:00:00 GMT+0800">
-                
-                    2025-03-03
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/C/">C++</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/C-17/">C++ 17</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/cplusplus/shared_mutex/">阅读全文<span class="seo-reader-text">C++ 17 std::shared_mutex</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
-                        <a href="/cplusplus/filesystem/">
-                            <img src="/images/cpp/filesystem.webp" alt="C++ 17 file_system" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
-                    <h3 class="home-article-title">
-                        <a href="/cplusplus/filesystem/">
-                            C++ 17 file_system
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            C++ 17 file_system
-C++17 把文件系统库正式纳入了标准库，也就是 &lt;filesystem&gt;。它让路径处理、文件判断、目录遍历这些操作终于有了统一接口，不再总是依赖平台 API 或第三方库。
-
-1. 基本头文件12#include &lt;filesystem&gt;namespace fs = std::filesystem;
-
-很多示例都会先这样写一个别名...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Tue Feb 18 2025 14:00:00 GMT+0800">
-                
-                    2025-02-18
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/C/">C++</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/C-17/">C++ 17</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/cplusplus/filesystem/">阅读全文<span class="seo-reader-text">C++ 17 file_system</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
-                        <a href="/cplusplus/string_view/">
-                            <img src="/images/cpp/string-view.webp" alt="C++ 17 std::string_view" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
-                    <h3 class="home-article-title">
-                        <a href="/cplusplus/string_view/">
-                            C++ 17 std::string_view
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            C++ 17 std::string_view
-std::string_view 可以理解成“对一段字符串的只读视图”。它本身不拥有字符串数据，只是记录一段字符范围，因此非常轻量。
-
-1. 为什么需要 string_view？以前函数参数常见写法一般是：
-
-const std::string&amp;
-const char*
-
-这两种都能用，但各有问题：
-
-const std::string...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Fri Feb 07 2025 13:00:00 GMT+0800">
-                
-                    2025-02-07
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/C/">C++</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/C-17/">C++ 17</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/cplusplus/string_view/">阅读全文<span class="seo-reader-text">C++ 17 std::string_view</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
-                        <a href="/cplusplus/as_const/">
-                            <img src="/images/cpp/as-const.webp" alt="C++ 17 as_const" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
-                    <h3 class="home-article-title">
-                        <a href="/cplusplus/as_const/">
-                            C++ 17 as_const
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            C++ 17 as_const
-std::as_const 的功能很简单：把一个对象转换成 const 引用。它不会拷贝对象，也不会真的创建新对象，只是让你以 const 视角去看它。
-
-1. 它是干什么用的？有些对象既有 const 成员函数，也有非 const 成员函数。如果当前变量本身不是 const，而你又想明确调用 const 版本，可以用 std::as_const。
-2. 基本...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Jan 27 2025 12:00:00 GMT+0800">
-                
-                    2025-01-27
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/C/">C++</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/C-17/">C++ 17</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/cplusplus/as_const/">阅读全文<span class="seo-reader-text">C++ 17 as_const</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
-                        <a href="/cplusplus/make_from_tuple/">
-                            <img src="/images/cpp/make-from-tuple.webp" alt="C++ 17 std::make_from_tuple" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
-                    <h3 class="home-article-title">
-                        <a href="/cplusplus/make_from_tuple/">
-                            C++ 17 std::make_from_tuple
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            C++ 17 std::make_from_tuple
-std::make_from_tuple 可以理解成 std::apply 的“构造版本”。它会把 tuple 中的元素拆开，然后用这些元素去构造一个目标对象。
-
-1. 先看一个问题假设有这样一个类：
-123456789class Person&#123;public:    Person(std::string n, int a) :...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Thu Jan 16 2025 11:20:00 GMT+0800">
-                
-                    2025-01-16
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/C/">C++</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/C-17/">C++ 17</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/cplusplus/make_from_tuple/">阅读全文<span class="seo-reader-text">C++ 17 std::make_from_tuple</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
-                        <a href="/cplusplus/apply/">
-                            <img src="/images/cpp/apply.webp" alt="C++ 17 std::apply" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-5">
-                    <h3 class="home-article-title">
-                        <a href="/cplusplus/apply/">
-                            C++ 17 std::apply
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            C++ 17 std::apply
-std::apply 的作用可以概括成一句话：把 tuple 里的元素拆开，作为函数参数传进去。它是 tuple、可调用对象和模板工具之间的一座桥。
-
-1. 为什么需要 std::apply？假设你有一个函数：
-1234int add(int a, int b, int c)&#123;    return a + b + c;&#125;
-
-同时你手里拿...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Jan 06 2025 10:42:00 GMT+0800">
-                
-                    2025-01-06
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/C/">C++</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/C-17/">C++ 17</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/cplusplus/apply/">阅读全文<span class="seo-reader-text">C++ 17 std::apply</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
     </ul>
 
     <div class="home-paginator px-7 py-5">
@@ -1679,11 +1763,11 @@ std::apply 的作用可以概括成一句话：把 tuple 里的元素拆开，�
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        共撰写了 41 篇文章
+                        共撰写了 47 篇文章
                     </span>
                     
                         <span>
-                            共 32.9k 字
+                            共 42.3k 字
                         </span>
                     
                 </p>
